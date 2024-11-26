@@ -2,5 +2,12 @@
 name = "pqc_experiment"
 version = "0.1.0"
 edition = "2021"
+rust-version = "1.81"
 
 [dependencies]
+chacha20poly1305 = "0.10.1"
+hkdf = "0.12.4"
+hybrid-array = "0.2.1"
+ml-kem = "0.2.1"
+rand = "0.8.5"
+sha2 = "0.10"
